@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const dataPath = "./Database/data.json";
+const dataPath = "./database/data.json";
 
 exports.saveAccount = (data) => {
     const stringifyData = JSON.stringify(data);
